@@ -1,9 +1,7 @@
-function Book({ book }) {
+function Book({ book , handleCart}) {
     const { name, image, originalPrice, discountPrice } = book;
     
-    const handleCart = cart =>{
-        console.log(cart)
-    }
+
     return (
         <div>
             <div className="card card-compact bg-base-100 p-6 border-2 border-dashed border-amber-200">
